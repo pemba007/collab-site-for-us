@@ -1,0 +1,94 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-es-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+*{
+	font-family: segoe script,sans-serif;
+}
+
+@media only screen and (max-width: 500px){
+	p{
+		background-color: blue;
+	}
+}
+
+h2{
+	font-weight: lighter;
+	margin-bottom: 0px;
+}
+
+h5{
+	font-weight: 100;
+	font-style: thin;
+	font-style: italic;
+	margin-top: 0px;
+}
+
+.image{
+	height: 100px;
+}
+
+.line{
+	padding: 5px;
+	width: 100%;
+	background-image: url(../images/line.png);
+	background-repeat: repeat-x;
+}
+
+.row{
+	width: 100%;
+	display: flex;	
+	
+}
+
+.col-1{
+	width: 8.33%;
+}
+
+.col-2{
+	width: 16.66%;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.33%;
+}
+
+.col-5{
+	width: 41.66%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.88%;
+}
+
+.col-8{
+	width: 66.64%
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.33%;
+}
+
+.col-11{
+	width: 91.66%;
+}
+
+.col-12{
+	width: 100%;
+}
