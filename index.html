@@ -2,43 +2,62 @@
 <html>
 <head>
 	<title>Collab page</title>
-	<style>
-		table {
-			font-family: arial, sans-serif;
-			border-collapse: collapse;
-			width: 100%;
-		}
-
-		td, th {
-			border: 1px solid #dddddd;
-			text-align: left;
-			padding: 8px;
-		}
-
-		tr:nth-child(even) {
-			background-color: #dddddd;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<p>Add everything you want to. It's all good</p>
-
-	<table style="width:100%">
-		<tr>
-			<th>Firstname</th>
-			<th>Lastname</th>
-			<th>Age</th>
+	<table style="col-6">
+		<tr style="col-6">
+			<th style="col-2">Firstname</th>
+			<th style="col-2">Lastname</th>
+			<th style="col-2">Age</th>
 		</tr>
-		<tr>
-			<td>Jill</td>
-			<td>Smith</td>
-			<td>50</td>
+		<tr style="col-6">
+			<td style="col-2">Jill</td>
+			<td style="col-2">Smith</td>
+			<td style="col-2">50</td>
 		</tr>
-		<tr>
-			<td>Eve</td>
-			<td>Jackson</td>
-			<td>94</td>
+		<tr style="col-6">
+			<td style="col-2">Eve</td>
+			<td style="col-2">Jackson</td>
+			<td style="col-2">94</td>
 		</tr>
 	</table>
+	<div class="grid">
+		<div class="row">
+			<div class="col-6">
+				<img src="https://myanimelist.cdn-dena.com/images/userimages/4758709.jpg" style="height: 100px">
+			</div>
+			<div class="col-6" style="text-align: right">
+				<h2>RYUU FORTE</h2>
+				<h5>FRONT-END PROGRAMMER</h5>
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="row">
+			<div class="col-12"><img src="images/black.png"class="col-12"></div>
+		</div>
+		<div class="row"><h2 class="col-12" style="text-align: center;">FEATURED WORK</h2></div>
+		<div class="row">
+			<div class="col-4" style="text-align: center;">
+				<div class="col-12">
+					<img src="images/black.png" alt="1st Image" class="image">
+				</div>
+				Black
+			</div>
+			<div class="col-4" style="text-align: center;">
+				<div class="col-12">
+					<img src="images/black.png" alt="1st Image" class="image">
+				</div>
+				More Black
+			</div>
+			<div class="col-4" style="text-align: center;">
+				<div class="col-12">
+					<img src="images/black.png" alt="1st Image" class="image">
+				</div>
+				Blacky Black
+			</div>
+		</div>
+	</div>
 </body>
 </html>
